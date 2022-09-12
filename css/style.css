@@ -1,0 +1,143 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: orange;
+}
+
+.header-section {
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+h2 {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.col {
+    margin-bottom: 60px;
+}
+
+.q1 {
+  margin-left: 5px;
+}
+
+.n1 {
+    margin-left: 5px;
+    color: green;
+}
+
+.q2 {
+    margin-left: 5px;
+  }
+  
+  .n2 {
+      margin-left: 5px;
+      color: orange
+  }
+
+  .q3 {
+    margin-left: 5px;
+  }
+  
+  .n3 {
+      margin-left: 5px;
+      color: red
+  }
+.img-aut {
+    height: 170px;
+}
+
+
+/* partie modal */
+
+.modal-content{
+  height:500px;
+  width: 700px;
+  background: url(../img/car-1317240_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.modal-header {
+    background: rgb(98, 4, 4);;
+}
+
+.modal-body {
+   
+}
+
+.mymodal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: table;
+}
+
+
+.anec {
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.quest {
+
+    border-radius: 10px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    background: rgb(98, 4, 4);
+    color: aliceblue;
+}
+
+.containerl{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    color: aliceblue;
+
+}
+.propo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    list-style: none;
+}
+
+.propo button {
+    text-align: center;
+    padding: 3px;
+    border: solid 1px black;
+    margin-bottom: 50px;
+    background-color: white;
+    font-size: 25px;
+    color: rgb(98, 4, 4);
+    border-radius: 5px;
+}
+
+.modal-footer {
+    background: rgb(98, 4, 4);
+    justify-content: center;
+}
+
+#valider {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    background: orange;
+    border: 1px solid orange;
+
+}
